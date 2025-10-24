@@ -1,0 +1,33 @@
+digraph game0457 {
+    v0 [name="v0", player=0, priority=1];
+    v1 [name="v1", player=0, priority=15];
+    v2 [name="v2", player=1, priority=14];
+    v3 [name="v3", player=0, priority=9];
+    v4 [name="v4", player=1, priority=17];
+    v6 [name="v6", player=1, priority=6];
+    v7 [name="v7", player=1, priority=18];
+    v8 [name="v8", player=1, priority=5];
+    v9 [name="v9", player=1, priority=6];
+    v10 [name="v10", player=0, priority=13];
+    v11 [name="v11", player=1, priority=3];
+
+    v0 -> v4;
+    v0 -> v8;
+    v1 -> v0;
+    v1 -> v7;
+    v2 -> v0;
+    v2 -> v1;
+    v3 -> v8;
+    v3 -> v9;
+    v4 -> v6;
+    v6 -> v1;
+    v6 -> v8;
+    v7 -> v11;
+    v8 -> v2;
+    v8 -> v3;
+    v9 -> v3;
+    v9 -> v10;
+    v10 -> v1;
+    v11 -> v6;
+    v11 -> v9;
+}

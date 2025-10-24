@@ -1,0 +1,15 @@
+digraph game0014 {
+    v0 [name="v0", player=1, priority=4];
+    v1 [name="v1", player=0, priority=3];
+    v2 [name="v2", player=1, priority=2];
+    v3 [name="v3", player=0, priority=3];
+    v4 [name="v4", player=1, priority=0];
+
+    v0 -> v2;
+    v1 -> v2;
+    v1 -> v3;
+    v2 -> v1;
+    v3 -> v2;
+    v3 -> v4;
+    v4 -> v0;
+}

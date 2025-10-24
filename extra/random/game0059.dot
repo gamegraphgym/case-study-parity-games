@@ -1,0 +1,19 @@
+digraph game0059 {
+    v0 [name="v0", player=1, priority=14];
+    v1 [name="v1", player=1, priority=10];
+    v2 [name="v2", player=1, priority=4];
+    v3 [name="v3", player=1, priority=10];
+    v4 [name="v4", player=1, priority=6];
+    v5 [name="v5", player=0, priority=14];
+    v6 [name="v6", player=0, priority=14];
+
+    v0 -> v1;
+    v0 -> v4;
+    v1 -> v3;
+    v2 -> v0;
+    v2 -> v1;
+    v3 -> v5;
+    v4 -> v1;
+    v5 -> v6;
+    v6 -> v0;
+}

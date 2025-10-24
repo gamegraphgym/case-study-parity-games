@@ -1,0 +1,46 @@
+digraph game0578 {
+    v0 [name="v0", player=1, priority=1];
+    v1 [name="v1", player=0, priority=1];
+    v2 [name="v2", player=0, priority=2];
+    v3 [name="v3", player=1, priority=3];
+    v4 [name="v4", player=0, priority=4];
+    v5 [name="v5", player=0, priority=5];
+    v6 [name="v6", player=1, priority=6];
+    v7 [name="v7", player=0, priority=6];
+    v8 [name="v8", player=0, priority=7];
+    v9 [name="v9", player=1, priority=8];
+    v10 [name="v10", player=1, priority=10];
+    v11 [name="v11", player=1, priority=12];
+    v12 [name="v12", player=0, priority=13];
+    v13 [name="v13", player=1, priority=13];
+    v14 [name="v14", player=0, priority=13];
+    v15 [name="v15", player=1, priority=13];
+    v16 [name="v16", player=1, priority=14];
+    v17 [name="v17", player=0, priority=15];
+
+    v0 -> v13;
+    v1 -> v3;
+    v2 -> v8;
+    v2 -> v14;
+    v3 -> v2;
+    v3 -> v7;
+    v4 -> v4;
+    v5 -> v1;
+    v5 -> v17;
+    v6 -> v3;
+    v6 -> v5;
+    v7 -> v0;
+    v7 -> v15;
+    v8 -> v9;
+    v8 -> v10;
+    v9 -> v6;
+    v10 -> v6;
+    v10 -> v12;
+    v11 -> v14;
+    v12 -> v14;
+    v13 -> v16;
+    v14 -> v11;
+    v15 -> v2;
+    v16 -> v17;
+    v17 -> v4;
+}
