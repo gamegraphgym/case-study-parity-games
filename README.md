@@ -46,7 +46,7 @@ mv scripts/results.json random_results.json
 python3 scripts/plot_time_by_vertex_count.py random_results.json
 ```
 
-### Benchmarking 1
+### Benchmarking 2
 ```bash
 # Benchmarking on concrete games and 60 seconds timeout
 bash scripts/benchmark.sh games/concrete/ solvers 60
