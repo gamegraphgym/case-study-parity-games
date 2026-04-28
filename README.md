@@ -40,7 +40,7 @@ python3 ggg/extra/scripts/plot_time_by_vertex_count.py random_results.json
 ### Benchmarking 2
 ```bash
 # Benchmarking on concrete games and 60 seconds timeout
-bash ggg/extra/scripts/benchmark.sh case-study-parity-games/games/concrete ggg/build/bin --time 60 -o type_results.json --solvers ggg_parity_solver_recursive,ggg_parity_solver_priority_promotion
+bash ggg/extra/scripts/benchmark.sh case-study-parity-games/games/syntDOT ggg/build/bin --time 60 -o type_results.json --solvers ggg_parity_solver_recursive,ggg_parity_solver_priority_promotion
 
 # Plotting bar chart of results
 python3 ggg/extra/scripts/plot_performance_by_game_type.py type_results.json
