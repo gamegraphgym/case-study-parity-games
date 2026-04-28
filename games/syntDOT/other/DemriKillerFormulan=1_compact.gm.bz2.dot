@@ -1,0 +1,22 @@
+digraph ParityGame {
+    0 [name="vertex0", player=0, priority=0];
+    1 [name="vertex1", player=1, priority=1];
+    2 [name="vertex2", player=1, priority=1];
+    3 [name="vertex3", player=0, priority=0];
+    4 [name="vertex4", player=1, priority=1];
+    5 [name="vertex5", player=0, priority=48];
+    6 [name="vertex6", player=0, priority=48];
+    7 [name="vertex7", player=0, priority=48];
+
+    0 -> 2;
+    0 -> 1;
+    1 -> 3;
+    2 -> 4;
+    3 -> 3;
+    4 -> 6;
+    4 -> 5;
+    5 -> 3;
+    6 -> 7;
+    7 -> 6;
+    7 -> 5;
+}
